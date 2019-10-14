@@ -228,7 +228,7 @@ void analyzer(char* input_file_name, char* output_file_name){
 					if(yytext[i]=='\n')
 					{
 						lines++;
-						pos_end=strlen(yytext)-i-1;
+						pos_end=strlen(yytext)-i;
 					}
 					
 					
