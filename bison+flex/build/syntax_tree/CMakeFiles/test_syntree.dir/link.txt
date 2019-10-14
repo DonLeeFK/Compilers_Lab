@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -std=c99  -O0 -Wall -g2 -ggdb -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_syntree.dir/test_tree.c.o  -o ../test_syntree ../lib/libsyntax_tree.a 

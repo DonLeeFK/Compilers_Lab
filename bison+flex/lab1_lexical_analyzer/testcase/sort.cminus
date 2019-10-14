@@ -1,0 +1,21 @@
+int sort(a[10])
+{
+    int i=0;
+    while(i<10)
+    {
+        max=a[i]
+        j=i-1;
+        while(j>=0)
+        {
+            if(a[j]>max)
+            {
+                a[j+1]=a[j];
+                j-=1;
+            }
+            else continue;/* to properly process "continue", I've already added CONTINUE token"*/
+
+        }
+        a[j+1]=max;
+        i+=1;
+    }
+}

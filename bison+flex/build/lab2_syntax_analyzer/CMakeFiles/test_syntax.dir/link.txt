@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -std=c99  -O0 -Wall -g2 -ggdb -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_syntax.dir/test_syntax.c.o  -o ../test_syntax ../lib/libsyntax.a ../lib/liblex.a ../lib/libcommon.a ../lib/libsyntax_tree.a 

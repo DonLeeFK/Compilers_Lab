@@ -1,0 +1,27 @@
+void BubbleSorting(int arry[],int n)  /*Bubble sorting for a digit array 
+test the comment !*/
+{
+    int i=0,j=0;
+    int tmp;
+    while(i<n)
+    {
+        while(j<n-i-1)
+        {
+            if(arry[j]>arry[j+1])     /* Sorting the arry from the smallest one */
+            {
+                tmp=arry[j];
+                arry[j]=arry[j+1];
+                arry[j+1]=tmp;          
+            }
+            j++;
+        }
+        i++;
+    }
+}
+
+int main()
+{
+    int a[5]={8,5,10,9,4};
+    BubbleSorting(a,5);
+    return 0;
+}
