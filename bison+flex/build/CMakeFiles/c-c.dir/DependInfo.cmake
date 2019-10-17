@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mac/Compilers/compiler_cminus/cminus_compiler.c" "/Users/mac/Compilers/compiler_cminus/build/CMakeFiles/c-c.dir/cminus_compiler.c.o"
+  "/studying/Compilers_Lab/bison+flex/cminus_compiler.c" "/studying/Compilers_Lab/bison+flex/build/CMakeFiles/c-c.dir/cminus_compiler.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -16,10 +16,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/CMakeFiles/lex.dir/DependInfo.cmake"
-  "/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/CMakeFiles/syntax.dir/DependInfo.cmake"
-  "/Users/mac/Compilers/compiler_cminus/build/common/CMakeFiles/common.dir/DependInfo.cmake"
-  "/Users/mac/Compilers/compiler_cminus/build/syntax_tree/CMakeFiles/syntax_tree.dir/DependInfo.cmake"
+  "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/CMakeFiles/lex.dir/DependInfo.cmake"
+  "/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/CMakeFiles/syntax.dir/DependInfo.cmake"
+  "/studying/Compilers_Lab/bison+flex/build/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/studying/Compilers_Lab/bison+flex/build/syntax_tree/CMakeFiles/syntax_tree.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

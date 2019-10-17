@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer
+# Install script for directory: /studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

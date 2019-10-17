@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/common.dir/common.c.o"
-  "../lib/libcommon.pdb"
   "../lib/libcommon.a"
+  "../lib/libcommon.pdb"
+  "CMakeFiles/common.dir/common.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

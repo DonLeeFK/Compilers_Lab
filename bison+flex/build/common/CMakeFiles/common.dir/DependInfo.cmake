@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mac/Compilers/compiler_cminus/common/common.c" "/Users/mac/Compilers/compiler_cminus/build/common/CMakeFiles/common.dir/common.c.o"
+  "/studying/Compilers_Lab/bison+flex/common/common.c" "/studying/Compilers_Lab/bison+flex/build/common/CMakeFiles/common.dir/common.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

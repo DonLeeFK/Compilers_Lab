@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-..//common/common.h
+../common/common.h
 stdio.h
 -
 stdlib.h
@@ -22,7 +22,7 @@ sys/stat.h
 string.h
 -
 
-..//lab1_lexical_analyzer/lexical_analyzer.h
+../lab1_lexical_analyzer/lexical_analyzer.h
 stdio.h
 -
 stdlib.h
@@ -32,13 +32,13 @@ dirent.h
 string.h
 -
 
-..//syntax_tree/SyntaxTree.h
+../syntax_tree/SyntaxTree.h
 stdio.h
 -
 lab1_lexical_analyzer/lexical_analyzer.h
 ../syntax_tree/lab1_lexical_analyzer/lexical_analyzer.h
 
-/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_analyzer.c
+/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_analyzer.c
 stdio.h
 -
 stdlib.h
@@ -46,11 +46,11 @@ stdlib.h
 string.h
 -
 common/common.h
-/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/common/common.h
+/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/common/common.h
 syntax_tree/SyntaxTree.h
-/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_tree/SyntaxTree.h
+/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_tree/SyntaxTree.h
 lab1_lexical_analyzer/lexical_analyzer.h
-/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/lab1_lexical_analyzer/lexical_analyzer.h
+/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/lab1_lexical_analyzer/lexical_analyzer.h
 stddef.h
 -
 libintl.h

@@ -1,6 +1,6 @@
-#line 2 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c"
+#line 2 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/lex.yy.c"
 
-#line 4 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c"
+#line 4 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -513,7 +513,7 @@ int pos_end;
 
 /*****************声明和选项设置  end*****************/
 
-#line 517 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c"
+#line 517 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/lex.yy.c"
 
 #define INITIAL 0
 
@@ -701,7 +701,7 @@ YY_DECL
  /******************TODO*********************/
  /****请在此补全所有flex的模式与动作  start******/
  
-#line 705 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c"
+#line 705 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -1080,7 +1080,7 @@ YY_RULE_SETUP
 #line 198 "lexical_analyzer.l"
 ECHO;
 	YY_BREAK
-#line 1084 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/lex.yy.c"
+#line 1084 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -2112,7 +2112,7 @@ void analyzer(char* input_file_name, char* output_file_name){
 					if(yytext[i]=='\n')
 					{
 						lines++;
-						pos_end=strlen(yytext)-i-1;
+						pos_end=strlen(yytext)-i;
 					}
 					
 					

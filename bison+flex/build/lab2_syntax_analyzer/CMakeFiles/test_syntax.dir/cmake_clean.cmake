@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_syntax.dir/test_syntax.c.o"
-  "../test_syntax.pdb"
   "../test_syntax"
+  "../test_syntax.pdb"
+  "CMakeFiles/test_syntax.dir/test_syntax.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

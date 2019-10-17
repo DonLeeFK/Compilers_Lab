@@ -195,7 +195,7 @@ typedef union YYSTYPE
     SyntaxTreeNode * node;
 }
 /* Line 193 of yacc.c.  */
-#line 199 "/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_analyzer.c"
+#line 199 "/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_analyzer.c"
 	YYSTYPE;
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
 # define YYSTYPE_IS_DECLARED 1
@@ -208,7 +208,7 @@ typedef union YYSTYPE
 
 
 /* Line 216 of yacc.c.  */
-#line 212 "/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_analyzer.c"
+#line 212 "/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_analyzer.c"
 
 #ifdef short
 # undef short
@@ -1815,7 +1815,7 @@ yyreduce:
 
 
 /* Line 1267 of yacc.c.  */
-#line 1819 "/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_analyzer.c"
+#line 1819 "/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_analyzer.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_syntree.dir/test_tree.c.o"
-  "../test_syntree.pdb"
   "../test_syntree"
+  "../test_syntree.pdb"
+  "CMakeFiles/test_syntree.dir/test_tree.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

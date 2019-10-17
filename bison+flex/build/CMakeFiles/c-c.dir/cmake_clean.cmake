@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/c-c.dir/cminus_compiler.c.o"
-  "c-c.pdb"
   "c-c"
+  "c-c.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/syntax_tree.dir/SyntaxTree.c.o"
-  "../lib/libsyntax_tree.pdb"
   "../lib/libsyntax_tree.a"
+  "../lib/libsyntax_tree.pdb"
+  "CMakeFiles/syntax_tree.dir/SyntaxTree.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

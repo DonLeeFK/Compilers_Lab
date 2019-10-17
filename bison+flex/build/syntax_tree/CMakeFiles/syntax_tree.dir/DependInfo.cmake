@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mac/Compilers/compiler_cminus/syntax_tree/SyntaxTree.c" "/Users/mac/Compilers/compiler_cminus/build/syntax_tree/CMakeFiles/syntax_tree.dir/SyntaxTree.c.o"
+  "/studying/Compilers_Lab/bison+flex/syntax_tree/SyntaxTree.c" "/studying/Compilers_Lab/bison+flex/build/syntax_tree/CMakeFiles/syntax_tree.dir/SyntaxTree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

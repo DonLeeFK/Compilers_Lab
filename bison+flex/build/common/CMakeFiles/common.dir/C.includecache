@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-..//lab1_lexical_analyzer/lexical_analyzer.h
+../lab1_lexical_analyzer/lexical_analyzer.h
 stdio.h
 -
 stdlib.h
@@ -16,9 +16,9 @@ dirent.h
 string.h
 -
 
-/Users/mac/Compilers/compiler_cminus/common/common.c
+/studying/Compilers_Lab/bison+flex/common/common.c
 common.h
-/Users/mac/Compilers/compiler_cminus/common/common.h
+/studying/Compilers_Lab/bison+flex/common/common.h
 stdio.h
 -
 stdlib.h
@@ -26,7 +26,7 @@ stdlib.h
 dirent.h
 -
 lab1_lexical_analyzer/lexical_analyzer.h
-/Users/mac/Compilers/compiler_cminus/common/lab1_lexical_analyzer/lexical_analyzer.h
+/studying/Compilers_Lab/bison+flex/common/lab1_lexical_analyzer/lexical_analyzer.h
 sys/types.h
 -
 sys/stat.h
@@ -34,7 +34,7 @@ sys/stat.h
 string.h
 -
 
-/Users/mac/Compilers/compiler_cminus/common/common.h
+/studying/Compilers_Lab/bison+flex/common/common.h
 stdio.h
 -
 stdlib.h
@@ -42,7 +42,7 @@ stdlib.h
 dirent.h
 -
 lab1_lexical_analyzer/lexical_analyzer.h
-/Users/mac/Compilers/compiler_cminus/common/lab1_lexical_analyzer/lexical_analyzer.h
+/studying/Compilers_Lab/bison+flex/common/lab1_lexical_analyzer/lexical_analyzer.h
 sys/types.h
 -
 sys/stat.h

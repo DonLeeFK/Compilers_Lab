@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Compilers/compiler_cminus/syntax_tree
+# Install script for directory: /studying/Compilers_Lab/bison+flex/syntax_tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

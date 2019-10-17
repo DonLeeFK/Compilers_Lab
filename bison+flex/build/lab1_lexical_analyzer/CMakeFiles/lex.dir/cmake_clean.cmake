@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
+  "../lib/liblex.a"
+  "../lib/liblex.pdb"
+  "CMakeFiles/lex.dir/lex.yy.c.o"
+  "CMakeFiles/lex.dir/lexical_analyzer.c.o"
+  "lex.yy.c"
   "syntax_analyzer.c"
   "syntax_analyzer.h"
-  "lex.yy.c"
-  "CMakeFiles/lex.dir/lexical_analyzer.c.o"
-  "CMakeFiles/lex.dir/lex.yy.c.o"
-  "../lib/liblex.pdb"
-  "../lib/liblex.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-..//lab1_lexical_analyzer/lexical_analyzer.h
+../lab1_lexical_analyzer/lexical_analyzer.h
 stdio.h
 -
 stdlib.h
@@ -16,19 +16,19 @@ dirent.h
 string.h
 -
 
-/Users/mac/Compilers/compiler_cminus/syntax_tree/SyntaxTree.c
+/studying/Compilers_Lab/bison+flex/syntax_tree/SyntaxTree.c
 stdlib.h
 -
 string.h
 -
 SyntaxTree.h
-/Users/mac/Compilers/compiler_cminus/syntax_tree/SyntaxTree.h
+/studying/Compilers_Lab/bison+flex/syntax_tree/SyntaxTree.h
 lab1_lexical_analyzer/lexical_analyzer.h
-/Users/mac/Compilers/compiler_cminus/syntax_tree/lab1_lexical_analyzer/lexical_analyzer.h
+/studying/Compilers_Lab/bison+flex/syntax_tree/lab1_lexical_analyzer/lexical_analyzer.h
 
-/Users/mac/Compilers/compiler_cminus/syntax_tree/SyntaxTree.h
+/studying/Compilers_Lab/bison+flex/syntax_tree/SyntaxTree.h
 stdio.h
 -
 lab1_lexical_analyzer/lexical_analyzer.h
-/Users/mac/Compilers/compiler_cminus/syntax_tree/lab1_lexical_analyzer/lexical_analyzer.h
+/studying/Compilers_Lab/bison+flex/syntax_tree/lab1_lexical_analyzer/lexical_analyzer.h
 

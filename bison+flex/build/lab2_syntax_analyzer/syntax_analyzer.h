@@ -122,7 +122,7 @@ typedef union YYSTYPE
     SyntaxTreeNode * node;
 }
 /* Line 1529 of yacc.c.  */
-#line 126 "/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/syntax_analyzer.h"
+#line 126 "/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/syntax_analyzer.h"
 	YYSTYPE;
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
 # define YYSTYPE_IS_DECLARED 1

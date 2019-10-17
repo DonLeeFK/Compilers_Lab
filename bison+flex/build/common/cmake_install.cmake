@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Compilers/compiler_cminus/common
+# Install script for directory: /studying/Compilers_Lab/bison+flex/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Compilers/compiler_cminus
+# Install script for directory: /studying/Compilers_Lab/bison+flex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mac/Compilers/compiler_cminus/build/common/cmake_install.cmake")
-  include("/Users/mac/Compilers/compiler_cminus/build/syntax_tree/cmake_install.cmake")
-  include("/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/cmake_install.cmake")
-  include("/Users/mac/Compilers/compiler_cminus/build/lab2_syntax_analyzer/cmake_install.cmake")
+  include("/studying/Compilers_Lab/bison+flex/build/common/cmake_install.cmake")
+  include("/studying/Compilers_Lab/bison+flex/build/syntax_tree/cmake_install.cmake")
+  include("/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/cmake_install.cmake")
+  include("/studying/Compilers_Lab/bison+flex/build/lab2_syntax_analyzer/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mac/Compilers/compiler_cminus/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/studying/Compilers_Lab/bison+flex/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

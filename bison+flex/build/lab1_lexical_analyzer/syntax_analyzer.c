@@ -142,7 +142,7 @@
 
 
 /* Copy the first part of user declarations.  */
-#line 1 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 1 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -189,13 +189,13 @@ void yyerror(const char * s);
 
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 typedef union YYSTYPE
-#line 27 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 27 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
 {
 /********** TODO: Fill in this union structure *********/
     SyntaxTreeNode * node;
 }
 /* Line 193 of yacc.c.  */
-#line 199 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/syntax_analyzer.c"
+#line 199 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/syntax_analyzer.c"
 	YYSTYPE;
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
 # define YYSTYPE_IS_DECLARED 1
@@ -208,7 +208,7 @@ typedef union YYSTYPE
 
 
 /* Line 216 of yacc.c.  */
-#line 212 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/syntax_analyzer.c"
+#line 212 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/syntax_analyzer.c"
 
 #ifdef short
 # undef short
@@ -1499,323 +1499,323 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 41 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 41 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {gt->root = newSyntaxTreeNode("program"); SyntaxTreeNode_AddChild(gt->root, (yyvsp[(1) - (1)].node));;}
     break;
 
   case 3:
-#line 43 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 43 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("declaration-list"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 4:
-#line 44 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 44 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("declaration-list"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 5:
-#line 46 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 46 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("declaration");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 6:
-#line 47 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 47 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("declaration");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 7:
-#line 49 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 49 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("var-declaration"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 8:
-#line 50 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 50 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("var-declaration"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (6)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(5) - (6)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(6) - (6)].node));;}
     break;
 
   case 9:
-#line 52 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 52 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("type-specifier"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 10:
-#line 53 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 53 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("type-specifier"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 11:
-#line 55 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 55 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("fun-declaration"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(5) - (6)].node)); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(6) - (6)].node));;}
     break;
 
   case 12:
-#line 57 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 57 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("params"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 13:
-#line 58 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 58 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("params"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 14:
-#line 60 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 60 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("param-list"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 15:
-#line 61 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 61 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("param-list"); SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 16:
-#line 63 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 63 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("param");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 17:
-#line 64 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 64 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("param");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 18:
-#line 66 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 66 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("compound-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (4)].node));;}
     break;
 
   case 19:
-#line 68 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 68 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("local-declarations");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 20:
-#line 69 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 69 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("local-declarations");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 21:
-#line 71 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 71 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement-list");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 22:
-#line 72 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 72 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement-list");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 23:
-#line 74 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 74 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 24:
-#line 75 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 75 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 25:
-#line 76 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 76 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 26:
-#line 77 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 77 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 27:
-#line 78 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 78 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("statement");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 28:
-#line 80 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 80 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("expression-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 29:
-#line 81 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 81 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("expression-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 30:
-#line 83 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 83 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("selection-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(5) - (5)].node));;}
     break;
 
   case 31:
-#line 84 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 84 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("selection-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(5) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(6) - (7)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(7) - (7)].node));;}
     break;
 
   case 32:
-#line 86 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 86 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("iteration-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (5)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(5) - (5)].node));;}
     break;
 
   case 33:
-#line 88 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 88 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("return-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (2)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (2)].node));;}
     break;
 
   case 34:
-#line 89 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 89 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("return-stmt");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 35:
-#line 91 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 91 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 36:
-#line 92 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 92 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 37:
-#line 94 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 94 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("var");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 38:
-#line 95 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 95 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("var");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (4)].node));;}
     break;
 
   case 39:
-#line 97 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 97 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("simple-expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 40:
-#line 98 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 98 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("simple-expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 41:
-#line 100 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 100 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 42:
-#line 101 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 101 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 43:
-#line 102 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 102 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 44:
-#line 103 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 103 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 45:
-#line 104 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 104 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 46:
-#line 105 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 105 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("relop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 47:
-#line 107 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 107 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("additive-expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 48:
-#line 108 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 108 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("additive-expression");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 49:
-#line 110 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 110 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("addop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 50:
-#line 111 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 111 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("addop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 51:
-#line 113 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 113 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("term");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 52:
-#line 114 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 114 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("term");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 53:
-#line 116 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 116 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("mulop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 54:
-#line 117 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 117 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("mulop");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 55:
-#line 119 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 119 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("factor");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 56:
-#line 120 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 120 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("factor");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 57:
-#line 121 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 121 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("factor");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 58:
-#line 122 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 122 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("factor");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 59:
-#line 124 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 124 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("call");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (4)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(4) - (4)].node));;}
     break;
 
   case 60:
-#line 126 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 126 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("args");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 61:
-#line 127 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 127 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("args");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 62:
-#line 129 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 129 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("arg-list");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(2) - (3)].node));SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(3) - (3)].node));;}
     break;
 
   case 63:
-#line 130 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 130 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("arg-list");SyntaxTreeNode_AddChild((yyval.node), (yyvsp[(1) - (1)].node));;}
     break;
 
   case 64:
-#line 132 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 132 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
     {(yyval.node) = newSyntaxTreeNode("epsilon");;}
     break;
 
 
 /* Line 1267 of yacc.c.  */
-#line 1819 "/Users/mac/Compilers/compiler_cminus/build/lab1_lexical_analyzer/syntax_analyzer.c"
+#line 1819 "/studying/Compilers_Lab/bison+flex/build/lab1_lexical_analyzer/syntax_analyzer.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -2029,7 +2029,7 @@ yyreturn:
 }
 
 
-#line 134 "/Users/mac/Compilers/compiler_cminus/lab2_syntax_analyzer/syntax_analyzer.y"
+#line 134 "/studying/Compilers_Lab/bison+flex/lab2_syntax_analyzer/syntax_analyzer.y"
 
 
 void yyerror(const char * s)
